@@ -20,8 +20,13 @@
         margin-right: 14px;
       }
       section{
-        margin-top: 10px;
+        margin-top: 10px; 
       }
+      @media screen and (max-width: 1000px)  {
+        section .container .row .logo{
+          display: none;
+        }
+}
     </style>
 	</head>
 
@@ -63,8 +68,7 @@
 				</nav>
 			</div>
 		</header>
-
-<!--轮播图-->
+    <!--轮播图-->
 		<section>
 			<div class="container">
 				<div class="row">
@@ -89,6 +93,7 @@
 				</div>
 			</div>
 		</section>
+
 	</body>
 
 	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
