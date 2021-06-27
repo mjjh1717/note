@@ -64,6 +64,31 @@
 			</div>
 		</header>
 
+<!--轮播图-->
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="logo col-lg-3">
+						<img src="img/bzrslogo.gif" />
+					</div>
+					<div class="bzrsbanner col-lg-9">
+						<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img src="img/banner.jpg" class="d-block w-100" alt="...">
+								</div>
+								<div class="carousel-item">
+									<img src="img/banner.jpg" class="d-block w-100" alt="...">
+								</div>
+								<div class="carousel-item">
+									<img src="img/banner.jpg" class="d-block w-100" alt="...">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 	</body>
 
 	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
