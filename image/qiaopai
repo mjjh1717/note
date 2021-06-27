@@ -1,0 +1,975 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <!-- 必须的 meta 标签 -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap 的 CSS 文件 -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="index.css"/>
+    <title>中国桥牌网</title>
+  </head>
+<body>
+<header>
+	<div class="container">
+		<nav class="navbar navbar-expand-lg navbar-light CCBA-nav">
+			<a class="navbar-brand" href="#">
+				<img src="img/CCBA.gif" />中国桥牌网
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    			<span class="navbar-toggler-icon"></span>
+  			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">主页 </a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+							桥讯
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">桥牌搜索</a>
+							<a class="dropdown-item" href="#">中桥讯</a>
+							<a class="dropdown-item" href="#">地方讯</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+							赛事
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">桥牌搜索</a>
+							<a class="dropdown-item" href="#">赛事历史</a>
+							<a class="dropdown-item" href="#">年度计划</a>
+							<a class="dropdown-item" href="#">全国赛事预告</a>
+							<a class="dropdown-item" href="#">地方赛事预告</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+							会员
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">注册</a>
+							<a class="dropdown-item" href="#">运动员注册公示</a>
+							<a class="dropdown-item" href="#">在线交费</a>
+							<a class="dropdown-item" href="#">我的资料</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+							组织
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">注册</a>
+							<a class="dropdown-item" href="#">运动员注册公示</a>
+							<a class="dropdown-item" href="#">在线交费</a>
+							<a class="dropdown-item" href="#">我的资料</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+							桥技
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">注册</a>
+							<a class="dropdown-item" href="#">运动员注册公示</a>
+							<a class="dropdown-item" href="#">在线交费</a>
+							<a class="dropdown-item" href="#">我的资料</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+							商城
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">注册</a>
+							<a class="dropdown-item" href="#">运动员注册公示</a>
+							<a class="dropdown-item" href="#">在线交费</a>
+							<a class="dropdown-item" href="#">我的资料</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+							软件
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">注册</a>
+							<a class="dropdown-item" href="#">运动员注册公示</a>
+							<a class="dropdown-item" href="#">在线交费</a>
+							<a class="dropdown-item" href="#">我的资料</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+							国际组织
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">注册</a>
+							<a class="dropdown-item" href="#">运动员注册公示</a>
+							<a class="dropdown-item" href="#">在线交费</a>
+							<a class="dropdown-item" href="#">我的资料</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+							帮助
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">注册</a>
+							<a class="dropdown-item" href="#">运动员注册公示</a>
+							<a class="dropdown-item" href="#">在线交费</a>
+							<a class="dropdown-item" href="#">我的资料</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+</header>
+	<!--轮播图-->
+<section id="banner">
+	<div class="container">
+		<div class="row">
+			<div class="ccba-banner col-lg-9">
+				<div id="carousel-inner" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="img/banner01.jpg" class="d-block w-100" alt="...">
+						</div>
+						<div class="carousel-item">
+							<img src="img/banner02.jpg" class="d-block w-100" alt="...">
+						</div>
+						<div class="carousel-item">
+							<img src="img/banner03.jpg" class="d-block w-100" alt="...">
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-target="#carousel-inner" data-slide="prev">
+    					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    					<span class="sr-only">Previous</span>
+  					</button>
+					<button class="carousel-control-next" type="button" data-target="#carousel-inner" data-slide="next">
+    					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    					<span class="sr-only">Next</span>
+  					</button>
+				</div>
+			</div>
+			<!-- 右边侧栏 -->
+			<div class="ccba-btn col-lg-3">
+				<button type="button" class="btn btn-primary">注册个人会员</button>
+				<button type="button" class="btn btn-secondary">个人会员交费</button>
+				<button type="button" class="btn btn-success">个人会员登录</button>
+				<button type="button" class="btn btn-danger">单位会员登录</button>
+				<button type="button" class="btn btn-info">全国通讯赛</button>
+				<div class="input-group mb-3">
+  					<input type="text" class="form-control" placeholder="会员或姓名" aria-label="Recipient's username" aria-describedby="basic-addon2">
+  					<div class="input-group-append" >
+    					<span class="input-group-text" id="basic-addon2">查询</span>
+  					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<div class="main">
+	<div class="container">
+		<div class="row">
+			<!-- 上1 -->
+			<div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 my-2">
+				<div class="card bg-light h-100">
+					<div class="card-header">
+						<h4 class="my-0 fw-normal">中桥讯</h4>
+					</div>
+					<div class="card-body">
+						<table class="w-100" cellspacing="0" cellpadding="0">
+							<tr>
+								<td style="padding-bottom: 10px; ">
+									<a class=" card-text" style="color: #0D0D0D; vertical-align: top;" href='#' target="_blank">沈明坤：渴望中国老年队能够再有突破</a>
+									<span id="ctl00_ccba_repeatCCBANews_ctl01_labelNewExpress" class="badge bg-success">new</span>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.22
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px; ">
+									<a class=" card-text" style="color: #0D0D0D; vertical-align: top;" href='#' target="_blank">“草根牌手”鲁雪燕：感谢桥牌的救命之恩</a>
+									<span id="ctl00_ccba_repeatCCBANews_ctl02_labelNewExpress" class="badge bg-success">new</span>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.21
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px; ">
+									<a class=" card-text" style="color: #0D0D0D; vertical-align: top;" href='#' target="_blank">廖正江：期待代表中国队再登国际赛场</a>
+									<span id="ctl00_ccba_repeatCCBANews_ctl03_labelNewExpress" class="badge bg-success">new</span>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.21
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px; ">
+									<a class=" card-text" style="color: #0D0D0D; vertical-align: top;" href='#' target="_blank">全国桥牌锦标赛北京女队拔得女团头筹</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.20
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px; ">
+									<a class=" card-text" style="color: #0D0D0D;vertical-align: top;" href='#' target="_blank">徐明：申诉处理及时 比赛进行顺利</a>
+
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.20
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px; ">
+									<a class=" card-text" style="color: #0D0D0D; vertical-align: top;" href='#' target="_blank">李智刚：湖北选手重在为全运会练兵</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.20
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px; ">
+									<a class=" card-text" style="color: #0D0D0D;vertical-align: top;" target="_blank">王南：能够打桥牌，累也是快乐</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.20
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px; ">
+									<a class=" card-text" style="color: #0D0D0D; vertical-align: top;" href='#' target="_blank">孙铭：北京女队开局不错 还需继续加油</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.19
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px; ">
+									<a class=" card-text" style="color: #0D0D0D; vertical-align: top;" href='#' target="_blank">刘庆华：认真做桥牌工作 力争打好全运会预赛</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.19
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px; ">
+									<a class=" card-text" style="color: #0D0D0D; vertical-align: top;" href='#' target="_blank">乐山桥协：借力加大桥牌普及力度 补足缺女牌手短板</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.19
+								</td>
+							</tr>
+						</table>
+						<p class="my-2">
+							<a class="btn btn-sm btn-dark" href='#' role="button">更多 &raquo;</a>
+							<a class="btn btn-sm btn-warning" href='#' role="button">搜桥讯 &raquo;</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- 上2 -->
+			<div class=" col-xl-5 col-lg-5 col-md-12 col-sm-12 my-2">
+				<div class="card bg-info text-dark h-100">
+					<div class="card-header">
+						<h4 class="my-0 fw-normal">全国赛事</h4>
+					</div>
+					<div class="card-body">
+						<table class="w-100" cellspacing="0" cellpadding="0">
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text text-dark" style=" vertical-align: top;" href='#' target="_blank">2021年全国桥牌锦标赛</a>
+									<span id="ctl00_ccba_repeatCCBATour_ctl01_labelCurTour" class="badge bg-warning text-dark">cur</span>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.14
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text text-dark" style=" vertical-align: top;" href='#' target="_blank">2021年全国桥牌团体赛</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									06.08
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text text-dark" style=" vertical-align: top;" href='#' target="_blank">2021年全国桥牌A类俱乐部(第二站)</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									06.21
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text text-dark" style=" vertical-align: top;" href='#' target="_blank">第十四届全运会群众比赛桥牌项目预赛</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									07.05
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text text-dark" style="vertical-align: top;" href='#' target="_blank">第十四届全运会群众比赛桥牌项目决赛</a>
+
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									08.20
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text text-dark" style="vertical-align: top;" href='#' target="_blank">2021年全国桥牌混合团体赛</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									09.07
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text text-dark" style=" vertical-align: top;" href='#' target="_blank">2021年全国桥牌俱乐部锦标赛</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									10.10
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text text-dark" style=" vertical-align: top;" href='#' target="_blank">2021年中国海南桥牌节</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									10.30
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text text-dark" style=" vertical-align: top;" href='#' target="_blank">2021年全国桥牌A类俱乐部联赛(总决赛)</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									11.22
+								</td>
+							</tr>
+						</table>
+						<p class="my-2">
+							<a class="btn btn-sm btn-dark" href="#" role="button">更多 &raquo;</a>
+							<a class="btn btn-sm btn-warning" href="#" role="button">搜比赛 &raquo;</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- 中1 -->
+			<div class=" col-xl-7 col-lg-7 col-md-12 col-sm-12 my-2">
+				<div class="card bg-light h-100">
+					<div class="card-header">
+						<h4 class="my-0 fw-normal">地方桥讯</h4>
+					</div>
+					<div class="card-body">
+						<table class="w-100" cellspacing="0" cellpadding="0">
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #0D0D0D;vertical-align: top;" href='#' target="_blank">深圳市夏季入级牌手考级测试顺利完成</a>
+									<span id="ctl00_ccba_repeatOrgNews_ctl01_labelNewExpress" class="badge bg-success">new</span>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.21
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #0D0D0D;vertical-align: top;" href='#' target="_blank">关于甘肃省第三届全民健身运动会暨“我要上全运”桥牌选拔赛的补充通知</a>
+									<span id="ctl00_ccba_repeatOrgNews_ctl02_labelNewExpress" class="badge bg-success">new</span>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.21
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #0D0D0D; vertical-align: top;" href='#' target="_blank">“我要上全运”第十四届全运会北京桥牌代表队选拔赛竞赛规程</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.20
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #0D0D0D; vertical-align: top;" href='#' target="_blank">西安交通大学第九届“饮水思源杯”桥牌团体赛成功举行</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.18
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #0D0D0D;  vertical-align: top;" href='#' target="_blank">湖州市“东吴国际杯”桥牌系列双人赛（2）顺利举行</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.17
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #0D0D0D; vertical-align: top;" href='#' target="_blank">中国体育彩票·2021年上海市第34届队式桥牌等级赛 丙级组比赛将于6月5日在虹口足球场开赛</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.14
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #0D0D0D; vertical-align: top;" href='#' target="_blank">杭州市第十六届桥牌联赛第二站（西湖站）补充通知</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.13
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #0D0D0D; vertical-align: top;" href='#' target="_blank">2021年安徽省学生体育联赛大学生桥牌赛</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.11
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #0D0D0D; vertical-align: top;" href='#' target="_blank">关于举办“我要上全运”第十四届全运会 上海桥牌代表队选拔赛的通知</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.08
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #0D0D0D; vertical-align: top;" href='#' target="_blank">“民生银行杯”2021年甘肃省桥牌甲乙级锦标赛收牌</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.07
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #0D0D0D; vertical-align: top;" href='#' target="_blank">杰德杯收牌 翔鹰队夺冠</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.06
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #0D0D0D; vertical-align: top;" href='#' target="_blank">CBO“五一·五天乐”网络个人赛成绩公告</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.06
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #0D0D0D; vertical-align: top;" href='#' target="_blank">防守信号的关键在前3墩（二）——深圳市桥牌特级大师公益讲座圆满结束</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.06
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #0D0D0D; vertical-align: top;" href='#' target="_blank">劳动托起中国梦---杭州市举办庆“五一”职工桥牌邀请赛</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.02
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #0D0D0D;vertical-align: top;" href='#' target="_blank">"远腾杯"第一届绵阳市桥牌联赛（第3站）圆满落幕</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.02
+								</td>
+							</tr>
+						</table>
+						<p class="my-2">
+							<a class="btn btn-sm btn-dark" href="#" role="button">更多 &raquo;</a>
+							<a class="btn btn-sm btn-warning" href="#" role="button">搜桥讯 &raquo;</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- 中2 -->
+			<div class=" col-xl-5 col-lg-5 col-md-12 col-sm-12 my-2">
+				<div class="card text-white bg-success h-100">
+					<div class="card-header">
+						<h4 class="my-0 fw-normal">地方赛事</h4>
+					</div>
+					<div class="card-body">
+						<table class="w-100" cellspacing="0" cellpadding="0">
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #FFFFFF; vertical-align: top;" href='#' target="_blank">“峨眉雪芽杯”2021年桥牌大赛系列赛</a>
+									<span id="ctl00_ccba_repeatOrgTour_ctl01_labelCurTour" class="badge bg-warning text-dark">cur</span>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.14
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #FFFFFF; vertical-align: top;" href='#' target="_blank">“我要上全运” 第十四届全运会安徽桥牌队选拔赛暨2021年安徽省社区运动会桥牌比赛</a>
+									<span id="ctl00_ccba_repeatOrgTour_ctl02_labelCurTour" class="badge bg-warning text-dark">cur</span>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.20
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #FFFFFF; vertical-align: top;" href='#' target="_blank">“我要上全运”第十四届全运会 上海桥牌代表队（业余组）选拔赛</a>
+									<span id="ctl00_ccba_repeatOrgTour_ctl03_labelCurTour" class="badge bg-warning text-dark">cur</span>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.22
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #FFFFFF; vertical-align: top;" href='#' target="_blank">“全运会”贵州省男、女子团体选拔赛决赛</a>
+
+									<span id="ctl00_ccba_repeatOrgTour_ctl04_labelCurTour" class="badge bg-warning text-dark">cur</span>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.22
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #FFFFFF; vertical-align: top;" href='#' target="_blank">第32届华夏友好城市老年桥牌赛</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.25
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #FFFFFF; vertical-align: top;" href='#' target="_blank">“我要上全运”第十四届全运会云南桥牌代表队选拔赛</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.25
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #FFFFFF; vertical-align: top;" href='#' target="_blank">“我要上全运”第十四届全运会 上海桥牌代表队选拔赛</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.26
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #FFFFFF; vertical-align: top;" href='#' target="_blank">2021年浙江省“童话云和杯”桥牌公开赛</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.28
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #FFFFFF; vertical-align: top;" href='#' target="_blank">“我要上全运”第十四届全运会群众比赛桥牌项目河北省选拔赛</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.28
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #FFFFFF; vertical-align: top;" href='#' target="_blank">“我要上全运”第十四届全运会北京桥牌代表队选拔赛</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.29
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #FFFFFF;vertical-align: top;" href='#' target="_blank">2021年贵州省混合团体赛暨全运会选拔赛</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.29
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #FFFFFF; vertical-align: top;" href='#' target="_blank">2021年第三届“水晶彩虹杯”建桥桥牌大奖赛</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.29
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #FFFFFF;vertical-align: top;" href='#' target="_blank">我要上全运”第十四届全运会黑龙江省男子代表队（业余组）选拔赛暨2021年黑龙江省桥牌团体锦标赛</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.29
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #FFFFFF; vertical-align: top;" href='#' target="_blank">"我要上全运“湖南省选拔赛</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.29
+								</td>
+							</tr>
+						</table>
+						<div id="ctl00_ccba_panelOrgTourLine">
+							<hr class="mt-0 mb-2 bg-warning" />
+						</div>
+						<table class="w-100" cellspacing="0" cellpadding="0">
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #FFFFFF; vertical-align: top;" href='#' target="_blank">2021年甘肃省网络团体赛第3期</a>
+									<img id="ctl00_ccba_repeatOrgTourOnline_ctl01_imgOnline" src="img/network.png" style="border-width:0px;" />
+									<span id="ctl00_ccba_repeatOrgTourOnline_ctl01_labelCurTour" class="badge bg-warning text-dark">cur</span>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.14
+								</td>
+							</tr>
+						</table>
+						<p class="my-2">
+							<a class="btn btn-sm btn-dark " href="#" role="button">更多 &raquo;</a>
+							<a class="btn btn-sm btn-warning" href="#" role="button">搜比赛 &raquo;</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 下 -->
+		<div class="row">
+			<div class=" col-xl-7 col-lg-7 col-md-12 col-sm-12 my-2">
+				<div class="card bg-light ">
+					<div class="card-header">
+						<h4 class="my-0 fw-normal">结束及延期举办赛事</h4>
+					</div>
+					<div class="card-body">
+						<table class="w-100" cellspacing="0" cellpadding="0">
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #0D0D0D; vertical-align: top;" href='#' target="_blank">安徽省第十三届第三站“尖山湖杯”名人桥牌精英赛</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.15
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #0D0D0D; vertical-align: top;" href='#' target="_blank">湘潭市第二十六届恒正杯桥牌比赛</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.15
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #0D0D0D; vertical-align: top;" href='#' target="_blank">“我要上全运”贵州省男团、女团选拔赛 </a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.15
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #0D0D0D; vertical-align: top;" href='#' target="_blank">2021年“体彩杯”深圳市老年赛桥牌锦标赛</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.10
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #0D0D0D; vertical-align: top;" href='#' target="_blank">首届江苏省桥牌精英赛</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.08
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #0D0D0D; vertical-align: top;" href='#' target="_blank">“我要上全运”第十四届全运会桥牌业余组浙江省桥牌代表队选拔赛</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.06
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #0D0D0D; vertical-align: top;" href='#' target="_blank">“我要上全运”广东省桥牌代表队选拔赛</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.04
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #0D0D0D; vertical-align: top;" href='#' target="_blank">“民生银行杯”—2021年甘肃省甲乙级团体赛</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.03
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #0D0D0D; vertical-align: top;" href='#' target="_blank">2021“领航者杯”少年桥牌城市邀请赛</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.02
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #0D0D0D; vertical-align: top;" href='#' target="_blank">“体彩杯”天津市“我要上全运”首届社区运动会暨第八届市民运动会桥牌比赛（团体赛）暨2021年天津市桥牌协会杯团体赛</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.02
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #0D0D0D; vertical-align: top;" href='#' target="_blank">2021年“杰德杯”五一公开邀请赛暨“汾之村杯”线上线下逐鹿中原争霸赛</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.02
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #0D0D0D; vertical-align: top;" href='#' target="_blank">2021年第一届“刺力王”杯桥牌公开赛</a>
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.02
+								</td>
+							</tr>
+						</table>
+						<div id="ctl00_ccba_panelCompleteTourLine">
+							<hr class="mt-0 mb-2 bg-warning" />
+						</div>
+						<table class="w-100" cellspacing="0" cellpadding="0">
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #0D0D0D; vertical-align: top;" href='#' target="_blank">2021年上海队式桥牌争先赛（5月份预赛）</a>
+									<img id="ctl00_ccba_repeatCompleteTourOnline_ctl01_imgOnline" src="img/network.png" style="border-width:0px;" />
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.14
+								</td>
+							</tr>
+
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #0D0D0D; vertical-align: top;" href='#' target="_blank">2021年中国桥牌协会会员网络大赛(5月)</a>
+									<img id="ctl00_ccba_repeatCompleteTourOnline_ctl02_imgOnline" src="img/network.png" style="border-width:0px;" />
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.09
+								</td>
+							</tr>
+
+							<tr>
+								<td style="padding-bottom: 10px;">
+									<a class=" card-text" style="color: #0D0D0D; vertical-align: top;" href='#' target="_blank">2021年甘肃网络桥牌5月双人赛</a>
+									<img id="ctl00_ccba_repeatCompleteTourOnline_ctl03_imgOnline" src="img/network.png" style="border-width:0px;" />
+								</td>
+								<td style="text-align: right; padding-bottom: 4px; vertical-align: top;">
+									05.07
+								</td>
+							</tr>
+						</table>
+						<p class="my-2">
+							<a class="btn btn-sm btn-dark " href="#" role="button">更多 &raquo;</a>
+							<a class="btn btn-sm btn-warning" href="#" role="button">搜比赛 &raquo;</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- 下2 -->
+			<div class="right col-xl-5 col-lg-5 col-md-12 col-sm-12 my-2">
+				<div id="carousel-inner" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="img/y1.jpg" class="d-block w-100" alt="...">
+						</div>
+						<div class="carousel-item">
+							<img src="img/y2.jpg" class="d-block w-100" alt="...">
+						</div>
+						<div class="carousel-item">
+							<img src="img/y3.jpg" class="d-block w-100" alt="...">
+						</div>
+						<div class="carousel-item">
+							<img src="img/y4.jpg" class="d-block w-100" alt="...">
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-target="#carousel-inner" data-slide="prev">
+    					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    					<span class="sr-only">Previous</span>
+  					</button>
+					<button class="carousel-control-next" type="button" data-target="#carousel-inner" data-slide="next">
+    					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    					<span class="sr-only">Next</span>
+  					</button>
+				</div>
+				<div class="row">
+					<div class=" col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 mb-2">
+						<a id="ctl00_ccba_linkTourYearPlan" class="btn btn-info w-100" href="#"><img id="ctl00_ccba_Image4" src="img/gold_metal_red.png" style="width:40px;border-width:0px;" />2021竞赛计划
+						</a>
+					</div>
+					<div class=" col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 mb-2">
+						<a id="ctl00_ccba_linkSourceDB" class="btn btn-info w-100" href="#"><img id="ctl00_ccba_Image6" src="img/emblem_library.png" style="width:40px;border-width:0px;" /> 资料库
+						</a>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class=" col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 mb-2">
+						<a id="ctl00_ccba_linkTest" class="btn btn-info w-100" href="#"><img id="ctl00_ccba_Image2" src="img/Test.png" style="width:40px;border-width:0px;" /> 牌手讲师考试
+						</a>
+					</div>
+					<div class=" col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 mb-2">
+						<a id="ctl00_ccba_HyperLink4" class="btn btn-info w-100" href="#"><img id="ctl00_ccba_Image3" src="img/Level_64x64.png" style="height:40px;border-width:0px;" /> 牌手等级比赛
+						</a>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class=" col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 mb-2">
+						<a id="ctl00_ccba_HyperLink1" class="btn btn-info w-100" href="#"><img id="ctl00_ccba_Image10" src="img/Student.png" style="width:40px;border-width:0px;" /> 入级牌手
+						</a>
+					</div>
+					<div class=" col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 mb-2">
+						<a id="ctl00_ccba_HyperLink2" class="btn btn-info w-100" href="#"><img id="ctl00_ccba_Image11" src="img/Teacher.png" style="width:40px;border-width:0px;" /> 桥牌讲师
+						</a>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class=" col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 mb-2">
+						<a id="ctl00_ccba_HyperLink3" class="btn btn-info w-100" href="#"><img id="ctl00_ccba_Image5" src="img/bridgePaper.png" style="width:40px;border-width:0px;" /> 桥牌杂志订购
+						</a>
+					</div>
+					<div class=" col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 mb-2">
+						<a id="ctl00_ccba_linkMasterpointTop" class="btn btn-info w-100" href="#"><img id="ctl00_ccba_Image5" src="img/Top_64x64.png" style="height:40px;border-width:0px;" /> 大师分英雄榜
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<footer>
+	<div class="" style="background-color:#013D06;">
+            <div class="text-center pt-4 pb-4">
+                <a href="#" target="_blank" class="d-block text-center">
+                    <span style="color:#ffffff;">&copy; 京ICP备20025317号-1</span>
+                </a>
+                <p class="text-white m-0 p-0">
+                    中国桥牌网  版权所有
+                </p>
+            </div>
+        </div>
+</footer>
+    <!-- JavaScript 文件是可选的。从以下两种建议中选择一个即可！ -->
+
+    <!-- 选项 1：jQuery 和 Bootstrap 集成包（集成了 Popper） -->
+	<script src="js/jquery-3.3.1.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+    <!-- 选项 2：Popper 和 Bootstrap 的 JS 插件各自独立 -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-qtoqgtVysUOibC/YeVgpOyLJpelAT1DHvg98mYHqq8ofXEmNEjaNqOZwnMKxlXCy" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
+
+
+
+
+
+
+/*初始化*/
+/*导航*/
+header{
+	width: 100%;
+	background:#013D06 ;
+}
+header .container .navbar .navbar-brand{
+	color: #fff;
+}
+header .container .navbar a img{
+	height: 40px;
+}
+header .CCBA-nav .navbar-nav li .nav-link{
+	color: #fff!important;
+	font-size: 14px;
+}
+/*轮播图*/
+#banner{
+	margin-top: 20px;
+}
+#banner button{
+	background: none;
+	border: none;
+}
+/*按钮区*/
+#banner .ccba-btn button{
+	width: 100%;
+	margin-bottom: 10px;
+}
+#banner .ccba-btn .btn-primary{
+	background: #0B60DB;
+}
+#banner .ccba-btn .btn-secondary{
+	background: #DC3545;
+}
+#banner .ccba-btn .btn-success{
+	background: #198754;
+}
+#banner .ccba-btn .btn-danger{
+	background: #FFC107;
+}
+#banner .ccba-btn .btn-info{
+	background: #6C757D;
+}
+.ccba-btn .input-group .input-group-text{
+	background: #198754;
+	color: #fff;
+}
+/*中桥讯*/
+.card-body table tr td a{
+	font-size: 14px;
+}
+/* 右下轮播图 */
+.right button{
+	background: none;
+	border: none;
+}
+/*全国赛事*/
+/**/
+
+
+
+
