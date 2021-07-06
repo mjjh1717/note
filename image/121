@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css" />
+		<title>编织人生</title>
+    <style>
+      header{
+        width: 100%;
+        background: #F4739D;
+      }
+      header .navbar .navbar-toggler{
+        border: 0px;
+      }
+      header .navbar  .collapse .navbar-nav a{
+        color: #FFFFFF;
+        font-size: 17px;
+        margin-right: 14px;
+      }
+      section{
+        margin-top: 10px; 
+      }
+      @media screen and (max-width: 1000px)  {
+        section .container .row .logo{
+          display: none;
+        }
+}
+    </style>
+	</head>
+
+	<body>
+		<!--头部导航-->
+		<header>
+			<div class="container">
+				<nav class="navbar navbar-expand-lg  navbar-light">
+					<a class="navbar-brand" href="#"></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+						<div class="navbar-nav">
+							<a class="nav-link" href="#">首页</a>
+							<li>
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                  编织资质
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#"  style="color: black;">桥牌搜索</a>
+                  <a class="dropdown-item" href="#"  style="color: black;">赛事历史</a>
+                  <a class="dropdown-item" href="#"  style="color: black;">年度计划</a>
+                  <a class="dropdown-item" href="#"  style="color: black;">全国赛事预告</a>
+                  <a class="dropdown-item" href="#"  style="color: black;">地方赛事预告</a>
+                </div>
+              </li>
+                
+							<a class="nav-link" href="#">编织教程</a>
+							<a class="nav-link" href="#">编织图库</a>
+							<a class="nav-link" href="#">毛线大全</a>
+							<a class="nav-link" href="#">编织视频</a>
+							<a class="nav-link" href="#">编织花样</a>
+							<a class="nav-link" href="#">博客</a>
+							<a class="nav-link" href="#">专题</a>
+							<a class="nav-link" href="#">论坛</a>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</header>
+    <!--轮播图-->
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="logo col-lg-3">
+						<img src="img/bzrslogo.gif" />
+					</div>
+					<div class="bzrsbanner col-lg-9">
+						<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img src="img/banner.jpg" class="d-block w-100" alt="...">
+								</div>
+								<div class="carousel-item">
+									<img src="img/banner.jpg" class="d-block w-100" alt="...">
+								</div>
+								<div class="carousel-item">
+									<img src="img/banner.jpg" class="d-block w-100" alt="...">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</body>
+
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+
+</html>
